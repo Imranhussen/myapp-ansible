@@ -3,8 +3,8 @@
    hosts: localhost
    gather_facts: false
    vars: 
-     a: 40
-     b: 60
+     a: {{value1}}
+     b: {{value2}}
    tasks:
      - name: "addition"
        debug:
